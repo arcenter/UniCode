@@ -1,7 +1,7 @@
 // Code by arcenter
 // https://github.com/BPDC/
 
-class q1 {
+class L5Q1 {
         public static void main(String args[]) {
                 Scanner sc = new Scanner(System.in);
                 int candidates[] = {0, 0, 0, 0, 0, 0};
