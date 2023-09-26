@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com//BPDC/
+// https://github.com/arcenter/BPDC/
 
 import java.util.Scanner;
 class CreditCard {
@@ -80,4 +80,4 @@ public class L4Q1 {
 }
 
 // Code by arcenter
-// https://github.com//BPDC/
+// https://github.com/arcenter/BPDC/
