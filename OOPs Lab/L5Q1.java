@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/BPDC/
+// https://github.com/arcenter/BPDC/
 
 class L5Q1 {
         public static void main(String args[]) {
@@ -20,4 +20,4 @@ class L5Q1 {
 }
 
 // Code by arcenter
-// https://github.com/BPDC/
+// https://github.com/arcenter/BPDC/
