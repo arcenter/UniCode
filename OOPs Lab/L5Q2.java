@@ -1,7 +1,29 @@
 // Code by arcenter
 // https://github.com/BPDC/
 
-class q2 {
+class SavingsAccount {
+        static double annualInterestRate;
+        private double savingsBalance;
+
+        SavingsAccount(double savingsBalance) {
+                this.savingsBalance = savingsBalance;
+        }
+
+        double getBalance() {
+                return savingsBalance;
+        }
+
+        void calculateMonthlyInterest() {
+                double interest = savingsBalance*annualInterestRate/1200.0;
+                savingsBalance += interest;
+        }
+
+        static void modifyInterestRate(double newRate) {
+                annualInterestRate = newRate;
+        }
+}
+
+class L5Q2 {
         public static void main(String args[]) {
 
                 SavingsAccount sa1 = new SavingsAccount(10d);
