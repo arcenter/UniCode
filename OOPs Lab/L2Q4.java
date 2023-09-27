@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
 
 import java.util.*;
 
@@ -18,4 +18,4 @@ class L2Q4 {
 }
 
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
