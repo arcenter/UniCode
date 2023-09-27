@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
 
 class SavingsAccount {
         static double annualInterestRate;
@@ -47,4 +47,4 @@ class L5Q2 {
 }
 
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
