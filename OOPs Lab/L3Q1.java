@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
 
 class Element {
 
@@ -49,4 +49,4 @@ public class L3Q1
 }
 
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
