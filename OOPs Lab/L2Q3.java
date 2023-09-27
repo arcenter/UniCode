@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
 
 class L2Q3 {
 	public static void main(String args[]) {		
@@ -11,4 +11,4 @@ class L2Q3 {
 }
 
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
