@@ -1,5 +1,5 @@
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
 
 import java.util.Scanner;
 
@@ -30,4 +30,4 @@ class L5Q1 {
 }
 
 // Code by arcenter
-// https://github.com/arcenter/BPDC/
+// https://github.com/arcenter/UniCode/
