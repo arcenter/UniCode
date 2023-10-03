@@ -1,3 +1,6 @@
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
+
 import java.util.Scanner;
 
 public class L6Q2 {
@@ -38,3 +41,6 @@ public class L6Q2 {
     }
 
 }
+
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
