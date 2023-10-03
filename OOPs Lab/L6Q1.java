@@ -1,3 +1,6 @@
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
+
 import java.util.Scanner;
 
 class Area {
@@ -68,3 +71,6 @@ public class L6Q1 {
 
     }
 }
+
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
