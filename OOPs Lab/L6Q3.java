@@ -1,3 +1,6 @@
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
+
 import java.util.Scanner;
 
 class Purse {
@@ -108,3 +111,6 @@ public class L6Q3 {
     }
 
 }
+
+// Code by arcenter
+// https://github.com/arcenter/UniCode/
