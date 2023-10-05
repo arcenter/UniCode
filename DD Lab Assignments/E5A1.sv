@@ -17,6 +17,7 @@ module tb;
     #10 i = 8'b00000100;
     #10 i = 8'b00000010;
     #10 i = 8'b00000001;
+    #10 $stop;
   end
   e5a1 U1(o, i);
 endmodule
