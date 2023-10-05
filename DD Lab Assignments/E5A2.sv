@@ -28,10 +28,10 @@ endmodule
 // Design
 
 module e5a2(output [3:0]o, input enablePin, [1:0]i);
-  assign o[0] = (~i[0]&~i[1])^enablePin;
-  assign o[1] = ( i[0]&~i[1])^enablePin;
-  assign o[2] = (~i[0]& i[1])^enablePin;
-  assign o[3] = ( i[0]& i[1])^enablePin;
+  assign o[3] = (~i[0]&~i[1]&~enablePin);
+  assign o[2] = ( i[0]&~i[1]&~enablePin);
+  assign o[1] = (~i[0]& i[1]&~enablePin);
+  assign o[0] = ( i[0]& i[1]&~enablePin);
 endmodule
 
 // Code by arcenter
