@@ -19,11 +19,10 @@ class Number {
 
 public class L7Q2 {
 
-    static int getPositionOfNum(Number numCounter[], int n) {
+    static int getPositionOfNum(Number numCounter[], int n)
         for (int i = 0; i < Number.counter; i++) {
             if (numCounter[i].num == n)
                 return i;
-        }
         return -1;
     }
 
@@ -33,12 +32,10 @@ public class L7Q2 {
 
         for (int number : numbers) {
             int pos = getPositionOfNum(numCounter, number);
-            if (pos >= 0) {
+            if (pos >= 0)
                 numCounter[pos].increment();
-            }
-            else {
+            else
                 numCounter[Number.counter] = new Number(number);
-            }
         }
 
         return numCounter;
@@ -59,10 +56,11 @@ public class L7Q2 {
         Number duplicates[] = new Number[numbers.length];
         duplicates = findDuplicates(numbers);
 
-        for (int i = 0; i < Number.counter; i++) {
+        for (int i = 0; i < Number.counter; i++)
             if (duplicates[i].count > 1)
                 System.out.printf("%d has come %d times\n", duplicates[i].num, duplicates[i].count);
-        }
+
+        sc.close();
 
     }
 
