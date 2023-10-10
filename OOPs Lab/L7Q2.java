@@ -19,8 +19,8 @@ class Number {
 
 public class L7Q2 {
 
-    static int getPositionOfNum(Number numCounter[], int n)
-        for (int i = 0; i < Number.counter; i++) {
+    static int getPositionOfNum(Number numCounter[], int n) {
+        for (int i = 0; i < Number.counter; i++)
             if (numCounter[i].num == n)
                 return i;
         return -1;
