@@ -52,7 +52,7 @@ public class RPS {
 					case 3:
 						switch (cc) {
 							case 1: computer.win(); break;
-							case 2: player.win(); break;
+							case 2: player.win();
 						}
 				}
 			}
