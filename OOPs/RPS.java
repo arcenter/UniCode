@@ -22,36 +22,39 @@ public class RPS {
 	
 		int pc, cc;
 		
-		User player   = new User("Player");
+		User player = new User("Player");
 		User computer = new User("Computer");
 		
 		Scanner sc = new Scanner(System.in);
 		
 		for (int i = 0; i < 10; i++) {
 		
-			cc = (int)(Math.random()*2+1);
+			cc = (int)(Math.random()*3+1);
 			
 			System.out.println("Enter 1 for Rock, 2 for Paper, 3 for scissor");
 			pc = Integer.parseInt(sc.nextLine());
-
-			System.out.println("Computer chose " + cc);
+			
+			System.out.println("Computer choose " + cc);
 			
 			if (pc == cc) {		
-			} else if (pc == 1) {
-				if (cc == 2)
-					computer.win();
-				else
-					player.win();
-			} else if (pc == 2) {
-				if (cc == 1)
-					player.win();
-				else
-					computer.win();
 			} else {
-				if (cc == 1)
-					computer.win();
-				else
-					player.win();
+				switch (pc) {
+					case 1:
+						switch (cc) {
+							case 2: computer.win(); break;
+							case 3: player.win(); break;
+						} break;
+					case 2:
+						switch (cc) {
+							case 1: player.win(); break;
+							case 3: computer.win(); break;
+						} break;
+					case 3:
+						switch (cc) {
+							case 1: computer.win(); break;
+							case 2: player.win(); break;
+						}
+				}
 			}
 					
 		}
