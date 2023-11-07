@@ -80,7 +80,7 @@ class Staff extends Person {
         this.pay = pay;
     }
 
-    public double getSchool() {
+    public String getSchool() {
         return school;
     }
     
