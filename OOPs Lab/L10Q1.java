@@ -106,9 +106,9 @@ public class L10Q1 {
 
     public static void main(String args[]) {
 
-        Person person = new Person("Stephen", "Home");
-        Student student = new Student("Stephen", "Home", "CS", 2, 12000);
-        Staff staff = new Staff("Stephen", "Home", "BITS", 12000);
+        Person person = new Person("John", "Home");
+        Student student = new Student("John", "Home", "CS", 2, 10000);
+        Staff staff = new Staff("John", "Home", "BITS", 10000);
 
         System.out.println(person.toString());
         System.out.println(student.toString());
