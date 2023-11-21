@@ -1,6 +1,3 @@
-// Code by arcenter
-// https://github.com/arcenter/UniCode/
-
 import java.util.*;
 
 interface Movable {
@@ -97,6 +94,7 @@ public class L12Q1 {
                 pieceToMove--;
                 System.out.println("(Comp) : Enter new position for " + board.get(pieceToMove).name + " (" + board.get(pieceToMove).curPos + ")");
                 board.get(pieceToMove).move(sc.nextLine());
+                pieceToMove++;
             }
 
         } while(pieceToMove != 0);
@@ -108,6 +106,3 @@ public class L12Q1 {
     }
 
 }
-
-// Code by arcenter
-// https://github.com/arcenter/UniCode/
