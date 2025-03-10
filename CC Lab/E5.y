@@ -8,7 +8,7 @@
 %union { float fval; }
 
 %token <fval> NUMBER
-%token PLUS MINUS MULT DIV NEWLINE POWER UR_MINUS
+%token PLUS MINUS MULT DIV NEWLINE POWER
 %left PLUS MINUS
 %left MULT DIV
 %right POWER
