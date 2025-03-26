@@ -13,7 +13,7 @@
 %type <fval> E
 %token <fval> NUMBER
 
-%token LB RB LOG SIN COS SQRT MINUS NEWLINE
+%token LB RB LOG SIN COS SQRT MINUS NEWLINE PI
 %right MINUS
 
 %%
@@ -23,6 +23,7 @@ program : E NEWLINE { printf("Result = %f\n", $1); }
 ;
 
 E : NUMBER { $$ = yylval.fval; }
+  | PI { $$ = 3.1416; }
   | MINUS E { $$ = -1 * $2; }
   | LOG LB E RB { $$ = log($3); }
   | SIN LB E RB { $$ = sin($3); }
