@@ -3,7 +3,7 @@
 %{
 	#include <stdio.h>
 	#include <string.h>
-	#include "project.tab.h"
+	#include "y.tab.h"
 	#include <math.h>
 	extern int var_count;
 %}
