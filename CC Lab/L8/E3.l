@@ -1,6 +1,6 @@
 %{
 	#include <stdio.h>
-	#include "E1.tab.h"
+	#include "y.tab.h"
 %}
 
 %%
